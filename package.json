@@ -1,0 +1,21 @@
+{
+  "name": "mende-cms",
+  "version": "1.0.0",
+  "description": "an inventory platform for supermarkets in the mende/mayland area",
+  "license": "ISC",
+  "author": "omage",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js "
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14"
+  }
+}
